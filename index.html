@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="overflow-hidden vw-100 vh-100 d-flex justify-content-center align-items-center bg-dark text-white user-select-none">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <main id="card" class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center bg-secondary p-4 rounded position-relative">
+            <p class="fs-4 mb-2">#<span id="textId" class="ms-1"></span></p>
+            <p id="cardText" class="fs-1 mb-4 p-4">loading...😏</p>
+            <span id="cardFooter" class="mb-1 d-block fs-3 fw-bold"><i class="fa-solid fa-quote-right"></i></span>
+            <p id="author" class="fs-3 mb-4"></p>
+          </main>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
